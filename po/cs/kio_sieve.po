@@ -1,0 +1,266 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Vít Pelčák <vit@pelcak.org>, 2011, 2013, 2014, 2019.
+# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_sieve\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-05 00:17+0000\n"
+"PO-Revision-Date: 2019-11-04 16:33+0100\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 19.08.2\n"
+
+#: sieve.cpp:327
+#, kde-format
+msgid "Connecting to %1..."
+msgstr "Připojuji k %1..."
+
+#: sieve.cpp:330
+#, kde-format
+msgid "The connection to the server was lost."
+msgstr "Spojení se serverem bylo ztraceno."
+
+#: sieve.cpp:342
+#, kde-format
+msgid "Server identification failed."
+msgstr "Nepodařilo se identifikovat server."
+
+#: sieve.cpp:348
+#, kde-format
+msgid "Can not use TLS since the underlying Qt library does not support it."
+msgstr "Nelze použít TLS, jelikož knihovna Qt jej nepodporuje."
+
+#: sieve.cpp:355
+#, kde-format
+msgid ""
+"TLS encryption was requested, but your Sieve server does not advertise TLS "
+"in its capabilities.\n"
+"You can choose to try to initiate TLS negotiations nonetheless, or cancel "
+"the operation."
+msgstr ""
+"Bylo vyžádáno šifrování TLS, ale váš Sieve server toto neoznamuje ve svých "
+"možnostech.\n"
+"Můžete si i přesto zvolit spustit TLS, nebo zrušit operaci."
+
+#: sieve.cpp:357
+#, kde-format
+msgid "Server Does Not Advertise TLS"
+msgstr "Server neoznamuje TLS"
+
+#: sieve.cpp:358
+#, kde-format
+msgid "&Start TLS nonetheless"
+msgstr "Pře&sto spustit TLS"
+
+#: sieve.cpp:359
+#, kde-format
+msgid "&Cancel"
+msgstr "Z&rušit"
+
+#: sieve.cpp:361
+#, kde-format
+msgid "TLS encryption requested, but not supported by server."
+msgstr "Vyžádáno TLS šifrování, ale toto není podporováno serverem."
+
+#: sieve.cpp:382
+#, kde-format
+msgid ""
+"Your Sieve server claims to support TLS, but negotiation was unsuccessful."
+msgstr ""
+"Váš Sieve server tvrdí, že podporuje TLS, ale domluva skončila nezdarem."
+
+#: sieve.cpp:384
+#, kde-format
+msgid "Connection Failed"
+msgstr "Spojení selhalo"
+
+#: sieve.cpp:392
+#, kde-format
+msgid ""
+"The server does not seem to support TLS. Disable TLS if you want to connect "
+"without encryption."
+msgstr ""
+"Server nepodporuje TLS. Přejete-li si se připojit bez šifrování, tak vypněte "
+"TLS."
+
+#: sieve.cpp:404
+#, kde-format
+msgid "Authenticating user..."
+msgstr "Ověřování uživatele..."
+
+#: sieve.cpp:407
+#, kde-format
+msgid "Authentication failed."
+msgstr "Ověření selhalo."
+
+#: sieve.cpp:471
+#, kde-format
+msgctxt "special command completed"
+msgid "Done."
+msgstr "Hotovo."
+
+#: sieve.cpp:484
+#, kde-format
+msgid "Activating script..."
+msgstr "Aktivuji skript..."
+
+#: sieve.cpp:501
+#, kde-format
+msgid "There was an error activating the script."
+msgstr "Při spouštění skriptu nastala chyba."
+
+#: sieve.cpp:521
+#, kde-format
+msgid "There was an error deactivating the script."
+msgstr "Při deaktivaci skriptu nastala chyba."
+
+#: sieve.cpp:553
+#, kde-format
+msgid "Sending data..."
+msgstr "Posílám data..."
+
+#: sieve.cpp:570
+#, kde-format
+msgid "KIO data supply error."
+msgstr "Chyba dat KIO."
+
+#: sieve.cpp:620 sieve.cpp:1161
+#, kde-format
+msgid "Network error."
+msgstr "Chyba sítě."
+
+#: sieve.cpp:632
+#, kde-format
+msgid "Verifying upload completion..."
+msgstr "Kontroluji zda bylo dokončeno odesílání..."
+
+#: sieve.cpp:657 sieve.cpp:666
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"This is probably due to errors in the script.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"Skriptu se nepovedlo úspěšně odeslat.\n"
+"To je pravděpodobně následkem chyb ve skriptu.\n"
+"Server odpověděl:\n"
+"%1"
+
+#: sieve.cpp:672 sieve.cpp:677
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"The script may contain errors."
+msgstr ""
+"Skriptu se nepovedlo úspěšně odeslat.\n"
+"Je možné, že skript obsahuje chyby."
+
+#: sieve.cpp:685
+#, kde-format
+msgctxt "data upload complete"
+msgid "Done."
+msgstr "Hotovo."
+
+#: sieve.cpp:717
+#, kde-format
+msgid "Retrieving data..."
+msgstr "Přijímám data..."
+
+#: sieve.cpp:767
+#, kde-format
+msgid "Finishing up..."
+msgstr "Dokončuji..."
+
+#: sieve.cpp:777
+#, kde-format
+msgid "A protocol error occurred while trying to negotiate script downloading."
+msgstr "Nastala chyba protokolu při vyjednávání stažení skriptu."
+
+#: sieve.cpp:782
+#, kde-format
+msgctxt "data retrieval complete"
+msgid "Done."
+msgstr "Hotovo."
+
+#: sieve.cpp:789
+#, kde-format
+msgid "Folders are not supported."
+msgstr "Složky nejsou podporovány."
+
+#: sieve.cpp:798
+#, kde-format
+msgid "Deleting file..."
+msgstr "Mažu soubor..."
+
+#: sieve.cpp:814
+#, kde-format
+msgid "The server would not delete the file."
+msgstr "Server nesmazal soubor."
+
+#: sieve.cpp:818
+#, kde-format
+msgctxt "file removal complete"
+msgid "Done."
+msgstr "Hotovo."
+
+#: sieve.cpp:833
+#, kde-format
+msgid "Cannot chmod to anything but 0700 (active) or 0600 (inactive script)."
+msgstr ""
+"Selhala změna oprávnění na vše kromě 0700 (aktivní) a 0600 (neaktivní "
+"skript)."
+
+#: sieve.cpp:994
+#, kde-format
+msgid "An error occurred during authentication: %1"
+msgstr "Během ověření nastala chyba: %1"
+
+#: sieve.cpp:1017
+#, kde-format
+msgid "Sieve Authentication Details"
+msgstr "Ověřovací podrobnosti Sieve"
+
+#: sieve.cpp:1019
+#, kde-format
+msgid ""
+"Please enter your authentication details for your sieve account (usually the "
+"same as your email password):"
+msgstr ""
+"Zadejte prosím podrobnosti pro ověření u vašeho účtu sieve (obvykle stejné "
+"jako vaše e-mailové heslo):"
+
+#: sieve.cpp:1092
+#, kde-format
+msgid ""
+"A protocol error occurred during authentication.\n"
+"Choose a different authentication method to %1."
+msgstr ""
+"Nastala chyba protokolu během ověřování.\n"
+"Vyberte jinou ověřovací metodu pro %1."
+
+#: sieve.cpp:1132
+#, kde-format
+msgid ""
+"Authentication failed.\n"
+"Most likely the password is wrong.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"Ověření selhalo.\n"
+"S největší pravděpodobností je špatné heslo.\n"
+"Server odpověděl:\n"
+"%1"
+
+#: sieve.cpp:1215
+#, kde-format
+msgid "A protocol error occurred."
+msgstr "Nastala chyba protokolu."

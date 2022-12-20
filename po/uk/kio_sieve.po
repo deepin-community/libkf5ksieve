@@ -1,0 +1,284 @@
+# Translation of kio_sieve.po to Ukrainian
+# Copyright (C) 2004-2019 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Eugene Onischenko <oneugene@ukr.net>, 2004.
+# Ivan Petrouchtchak <fr.ivan@ukrainian-orthodox.org>, 2004, 2007.
+# Yuri Chornoivan <yurchor@ukr.net>, 2009, 2010, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_sieve\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-05 00:17+0000\n"
+"PO-Revision-Date: 2019-11-02 08:55+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 19.11.70\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: sieve.cpp:327
+#, kde-format
+msgid "Connecting to %1..."
+msgstr "З'єднання з %1..."
+
+#: sieve.cpp:330
+#, kde-format
+msgid "The connection to the server was lost."
+msgstr "Перервано зв'язок з сервером."
+
+#: sieve.cpp:342
+#, kde-format
+msgid "Server identification failed."
+msgstr "Помилка ідентифікації сервера."
+
+#: sieve.cpp:348
+#, kde-format
+msgid "Can not use TLS since the underlying Qt library does not support it."
+msgstr ""
+"Використовувати TLS не можна, оскільки підлегла бібліотека Qt не підтримує "
+"такого шифрування."
+
+#: sieve.cpp:355
+#, kde-format
+msgid ""
+"TLS encryption was requested, but your Sieve server does not advertise TLS "
+"in its capabilities.\n"
+"You can choose to try to initiate TLS negotiations nonetheless, or cancel "
+"the operation."
+msgstr ""
+"Ви надіслали запит на шифрування TLS, але ваш сервер Sieve не оголошує про "
+"можливість шифрування TLS у переліку можливостей.\n"
+"Ви можете спробувати ініціалізувати TLS незалежно від повідомлень сервера "
+"або скасувати дію."
+
+#: sieve.cpp:357
+#, kde-format
+msgid "Server Does Not Advertise TLS"
+msgstr "Сервер не оголосив про початок TLS-з’єднання"
+
+#: sieve.cpp:358
+#, kde-format
+msgid "&Start TLS nonetheless"
+msgstr "Байдуже, в&икористати TLS"
+
+#: sieve.cpp:359
+#, kde-format
+msgid "&Cancel"
+msgstr "&Скасувати"
+
+#: sieve.cpp:361
+#, kde-format
+msgid "TLS encryption requested, but not supported by server."
+msgstr ""
+"Ви надіслали запит на шифрування TLS, але таке шифрування не підтримується "
+"сервером."
+
+#: sieve.cpp:382
+#, kde-format
+msgid ""
+"Your Sieve server claims to support TLS, but negotiation was unsuccessful."
+msgstr ""
+"У відповідь на запит ваш сервер Sieve вказав, що підтримує TLS, але спроба "
+"встановлення зв’язку була невдалою."
+
+#: sieve.cpp:384
+#, kde-format
+msgid "Connection Failed"
+msgstr "Невдала спроба з’єднання"
+
+#: sieve.cpp:392
+#, kde-format
+msgid ""
+"The server does not seem to support TLS. Disable TLS if you want to connect "
+"without encryption."
+msgstr ""
+"Здається, сервер не підтримує TLS. Вимкніть TLS, якщо бажаєте з’єднатися без "
+"шифрування."
+
+#: sieve.cpp:404
+#, kde-format
+msgid "Authenticating user..."
+msgstr "Автентифікація користувача..."
+
+#: sieve.cpp:407
+#, kde-format
+msgid "Authentication failed."
+msgstr "Помилка автентифікації."
+
+#: sieve.cpp:471
+#, kde-format
+msgctxt "special command completed"
+msgid "Done."
+msgstr "Завершено."
+
+#: sieve.cpp:484
+#, kde-format
+msgid "Activating script..."
+msgstr "Запускається скрипт..."
+
+#: sieve.cpp:501
+#, kde-format
+msgid "There was an error activating the script."
+msgstr "Помилка запуску скрипту."
+
+#: sieve.cpp:521
+#, kde-format
+msgid "There was an error deactivating the script."
+msgstr "Помилка завершення роботи скрипту."
+
+#: sieve.cpp:553
+#, kde-format
+msgid "Sending data..."
+msgstr "Надсилання даних..."
+
+#: sieve.cpp:570
+#, kde-format
+msgid "KIO data supply error."
+msgstr "Помилка подачі даних KIO."
+
+#: sieve.cpp:620 sieve.cpp:1161
+#, kde-format
+msgid "Network error."
+msgstr "Помилка мережі."
+
+#: sieve.cpp:632
+#, kde-format
+msgid "Verifying upload completion..."
+msgstr "Перевірка завершення вивантаження..."
+
+#: sieve.cpp:657 sieve.cpp:666
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"This is probably due to errors in the script.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"Скрипт не був успішно вивантажений.\n"
+"Можлива причина: помилки в скрипті.\n"
+"Відповідь сервера:\n"
+"%1"
+
+#: sieve.cpp:672 sieve.cpp:677
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"The script may contain errors."
+msgstr ""
+"Скрипт не був успішно вивантажений.\n"
+"Можливо, що він містить помилки."
+
+#: sieve.cpp:685
+#, kde-format
+msgctxt "data upload complete"
+msgid "Done."
+msgstr "Завершено."
+
+#: sieve.cpp:717
+#, kde-format
+msgid "Retrieving data..."
+msgstr "Отримання даних..."
+
+#: sieve.cpp:767
+#, kde-format
+msgid "Finishing up..."
+msgstr "Завершення..."
+
+#: sieve.cpp:777
+#, kde-format
+msgid "A protocol error occurred while trying to negotiate script downloading."
+msgstr "При спробі отримання скрипту сталась помилка протоколу."
+
+#: sieve.cpp:782
+#, kde-format
+msgctxt "data retrieval complete"
+msgid "Done."
+msgstr "Завершено."
+
+#: sieve.cpp:789
+#, kde-format
+msgid "Folders are not supported."
+msgstr "Теки не підтримуються."
+
+#: sieve.cpp:798
+#, kde-format
+msgid "Deleting file..."
+msgstr "Вилучення файла..."
+
+#: sieve.cpp:814
+#, kde-format
+msgid "The server would not delete the file."
+msgstr "Сервер не вилучає файл."
+
+#: sieve.cpp:818
+#, kde-format
+msgctxt "file removal complete"
+msgid "Done."
+msgstr "Завершено."
+
+#: sieve.cpp:833
+#, kde-format
+msgid "Cannot chmod to anything but 0700 (active) or 0600 (inactive script)."
+msgstr "Можна chmod тільки до 0700 (активний) або 0600 (неактивний скрипт)."
+
+#: sieve.cpp:994
+#, kde-format
+msgid "An error occurred during authentication: %1"
+msgstr "Трапилась помилка під час автентифікації: %1"
+
+#: sieve.cpp:1017
+#, kde-format
+msgid "Sieve Authentication Details"
+msgstr "Подробиці автентифікації Sieve"
+
+#: sieve.cpp:1019
+#, kde-format
+msgid ""
+"Please enter your authentication details for your sieve account (usually the "
+"same as your email password):"
+msgstr ""
+"Будь ласка, введіть дані щодо розпізнавання на вашому обліковому записі "
+"Sieve (зазвичай, пароль адреси ел. пошти):"
+
+#: sieve.cpp:1092
+#, kde-format
+msgid ""
+"A protocol error occurred during authentication.\n"
+"Choose a different authentication method to %1."
+msgstr ""
+"Під час автентифікації сталась помилка протоколу.\n"
+"Виберіть інший метод автентифікації для %1."
+
+#: sieve.cpp:1132
+#, kde-format
+msgid ""
+"Authentication failed.\n"
+"Most likely the password is wrong.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"Помилка автентифікації.\n"
+"Мабуть неправильний пароль.\n"
+"Відповідь сервера:\n"
+"%1"
+
+#: sieve.cpp:1215
+#, kde-format
+msgid "A protocol error occurred."
+msgstr "Сталася помилка протоколу."
+
+#~ msgctxt "data retrival complete"
+#~ msgid "Done."
+#~ msgstr "Завершено."
+
+#~ msgid "Quota exceeded"
+#~ msgstr "Перевищено квоту"
+
+#~ msgid "No authentication details supplied."
+#~ msgstr "Не вказані подробиці автентифікації."

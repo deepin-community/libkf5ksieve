@@ -1,0 +1,277 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_sieve\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-05 00:17+0000\n"
+"PO-Revision-Date: 2004-06-29 23:32+0530\n"
+"Last-Translator: I. Felix <ifelix25@yahoo.co.in>\n"
+"Language-Team: KDE <kde-i18n-doc@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: sieve.cpp:327
+#, kde-format
+msgid "Connecting to %1..."
+msgstr "%1 உடன் இணைக்கிறது..."
+
+#: sieve.cpp:330
+#, kde-format
+msgid "The connection to the server was lost."
+msgstr "சேவையகத்துடனான தொடர்பு இழக்கப்பட்டது."
+
+#: sieve.cpp:342
+#, kde-format
+msgid "Server identification failed."
+msgstr "சேவையக அடையாளம் இழக்கப்பட்டது."
+
+#: sieve.cpp:348
+#, kde-format
+msgid "Can not use TLS since the underlying Qt library does not support it."
+msgstr ""
+
+#: sieve.cpp:355
+#, kde-format
+msgid ""
+"TLS encryption was requested, but your Sieve server does not advertise TLS "
+"in its capabilities.\n"
+"You can choose to try to initiate TLS negotiations nonetheless, or cancel "
+"the operation."
+msgstr ""
+
+#: sieve.cpp:357
+#, kde-format
+msgid "Server Does Not Advertise TLS"
+msgstr ""
+
+#: sieve.cpp:358
+#, kde-format
+msgid "&Start TLS nonetheless"
+msgstr ""
+
+#: sieve.cpp:359
+#, kde-format
+msgid "&Cancel"
+msgstr ""
+
+#: sieve.cpp:361
+#, kde-format
+msgid "TLS encryption requested, but not supported by server."
+msgstr ""
+
+#: sieve.cpp:382
+#, kde-format
+msgid ""
+"Your Sieve server claims to support TLS, but negotiation was unsuccessful."
+msgstr ""
+
+#: sieve.cpp:384
+#, fuzzy, kde-format
+#| msgid "Authentication failed."
+msgid "Connection Failed"
+msgstr "உரிமம் வழங்க இயலவில்லை."
+
+#: sieve.cpp:392
+#, kde-format
+msgid ""
+"The server does not seem to support TLS. Disable TLS if you want to connect "
+"without encryption."
+msgstr ""
+
+#: sieve.cpp:404
+#, kde-format
+msgid "Authenticating user..."
+msgstr "உரிமம் வழங்கும் பயனர்..."
+
+#: sieve.cpp:407
+#, kde-format
+msgid "Authentication failed."
+msgstr "உரிமம் வழங்க இயலவில்லை."
+
+#: sieve.cpp:471
+#, fuzzy, kde-format
+#| msgid "Done."
+msgctxt "special command completed"
+msgid "Done."
+msgstr "முடிந்தது"
+
+#: sieve.cpp:484
+#, kde-format
+msgid "Activating script..."
+msgstr "ஸ்கிரிப்டை செயல்படுத்த"
+
+#: sieve.cpp:501
+#, kde-format
+msgid "There was an error activating the script."
+msgstr "ஸ்கிரிப்டை செயல்படுத்துவதில் ஓர் பிழை"
+
+#: sieve.cpp:521
+#, kde-format
+msgid "There was an error deactivating the script."
+msgstr "ஸ்கிரிப்டை செயலிழக்கச் செய்வதில் ஓர் பிழை"
+
+#: sieve.cpp:553
+#, kde-format
+msgid "Sending data..."
+msgstr "தரவு அனுப்பப்படுகிறது..."
+
+#: sieve.cpp:570
+#, kde-format
+msgid "KIO data supply error."
+msgstr "KIO தரவு வழங்கி பிழை"
+
+#: sieve.cpp:620 sieve.cpp:1161
+#, kde-format
+msgid "Network error."
+msgstr "பிணையம் பிழை"
+
+#: sieve.cpp:632
+#, kde-format
+msgid "Verifying upload completion..."
+msgstr "பதிவேற்றத்தை முழுமையானதை சரிபார்"
+
+#: sieve.cpp:657 sieve.cpp:666
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"This is probably due to errors in the script.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"ஸ்கிரிப்ட் வெற்றிகரமாக பதிவேற்றம் அடையவில்லை.\n"
+"இது ஸ்கிரிப்டில் உள்ள பிழையின் காரணமாக நடந்தது.\n"
+"சேவையகம் பதிலளித்தது:\n"
+"%1"
+
+#: sieve.cpp:672 sieve.cpp:677
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"The script may contain errors."
+msgstr ""
+"ஸ்கிரிப்ட் வெற்றிகரமாக பதிவேற்றம் அடையவில்லை.\n"
+"ஸ்கிரிப்ட் பிழையினை கொண்டிருக்கலாம்."
+
+#: sieve.cpp:685
+#, fuzzy, kde-format
+#| msgid "Done."
+msgctxt "data upload complete"
+msgid "Done."
+msgstr "முடிந்தது"
+
+#: sieve.cpp:717
+#, kde-format
+msgid "Retrieving data..."
+msgstr "தரவு மீட்டல்..."
+
+#: sieve.cpp:767
+#, kde-format
+msgid "Finishing up..."
+msgstr "முடிகின்ற..."
+
+#: sieve.cpp:777
+#, kde-format
+msgid "A protocol error occurred while trying to negotiate script downloading."
+msgstr "ஸ்கிரிப்டை பதிவிறக்கம் செய்யும் போது ஒரு நெறிமுறை பிழை ஏற்பட்டது"
+
+#: sieve.cpp:782
+#, fuzzy, kde-format
+#| msgid "Done."
+msgctxt "data retrieval complete"
+msgid "Done."
+msgstr "முடிந்தது"
+
+#: sieve.cpp:789
+#, kde-format
+msgid "Folders are not supported."
+msgstr "அடைவுகள் உகந்ததாக இல்லை"
+
+#: sieve.cpp:798
+#, kde-format
+msgid "Deleting file..."
+msgstr "கோப்பு அழிக்கப்படுகிறது..."
+
+#: sieve.cpp:814
+#, kde-format
+msgid "The server would not delete the file."
+msgstr "சேவையகம் கோப்புகளை அழிக்காது"
+
+#: sieve.cpp:818
+#, fuzzy, kde-format
+#| msgid "Done."
+msgctxt "file removal complete"
+msgid "Done."
+msgstr "முடிந்தது"
+
+#: sieve.cpp:833
+#, kde-format
+msgid "Cannot chmod to anything but 0700 (active) or 0600 (inactive script)."
+msgstr ""
+"எதற்கும் chmod செய்ய வேண்டாம் ஆனால் - 0700 (செயலிலுள்ள) அல்லது 0600 (செயலற்ற ஸ்கிரிப்ட்)."
+
+#: sieve.cpp:994
+#, kde-format
+msgid "An error occurred during authentication: %1"
+msgstr ""
+
+#: sieve.cpp:1017
+#, kde-format
+msgid "Sieve Authentication Details"
+msgstr "முழு உரிம தகவல்கள்"
+
+#: sieve.cpp:1019
+#, kde-format
+msgid ""
+"Please enter your authentication details for your sieve account (usually the "
+"same as your email password):"
+msgstr ""
+"உரிம தகவல்களை உங்களுடைய நகர்த்து கணக்கில் உள்ளீடு செய்யவும்( சாதாரணமாக இது உங்களுடைய "
+"மின்னஞ்சல் கடவுச்சொல் போன்றது)"
+
+#: sieve.cpp:1092
+#, kde-format
+msgid ""
+"A protocol error occurred during authentication.\n"
+"Choose a different authentication method to %1."
+msgstr ""
+"உரிமம் வழங்கும் போது ஒரு நெறிமுறை பிழை ஏற்பட்டுள்ளது.\n"
+" %1.க்கு பல்வேறு உறுதிப்படுத்தல் முறையினை தேர்தெடுக்கவும்."
+
+#: sieve.cpp:1132
+#, kde-format
+msgid ""
+"Authentication failed.\n"
+"Most likely the password is wrong.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"உரிமம் வழங்க இயலவில்லை\n"
+"அநேகமாக கடவுச்சொல்லில் தவறு ஏற்பட்டிருக்கும்.\n"
+"சேவையகம் பதிலளித்தது:\n"
+"%1"
+
+#: sieve.cpp:1215
+#, kde-format
+msgid "A protocol error occurred."
+msgstr "ஒரு நெறிமுறை பிழை ஏற்பட்டுள்ளது"
+
+#, fuzzy
+#~| msgid "Done."
+#~ msgctxt "data retrival complete"
+#~ msgid "Done."
+#~ msgstr "முடிந்தது"
+
+#~ msgid "Quota exceeded"
+#~ msgstr "அதிகமான மேற்கோள்"
+
+#~ msgid "No authentication details supplied."
+#~ msgstr "எந்த உரிம தகவல்களும் அனுப்பப்படவில்லை"
+
+#~ msgid "No compatible authentication methods found."
+#~ msgstr "ஏற்புடைய உரிம முறைகள் கண்டுபிடிக்கவில்லை. "

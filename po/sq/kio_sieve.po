@@ -1,0 +1,251 @@
+# Albanian translation for kdepimlibs
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the kdepimlibs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepimlibs\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-05 00:17+0000\n"
+"PO-Revision-Date: 2010-02-06 14:29+0000\n"
+"Last-Translator: Vilson Gjeci <vilsongjeci@gmail.com>\n"
+"Language-Team: Albanian <sq@li.org>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-04-21 23:49+0000\n"
+"X-Generator: Launchpad (build 12883)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: sieve.cpp:327
+#, kde-format
+msgid "Connecting to %1..."
+msgstr ""
+
+#: sieve.cpp:330
+#, kde-format
+msgid "The connection to the server was lost."
+msgstr ""
+
+#: sieve.cpp:342
+#, kde-format
+msgid "Server identification failed."
+msgstr ""
+
+#: sieve.cpp:348
+#, kde-format
+msgid "Can not use TLS since the underlying Qt library does not support it."
+msgstr ""
+
+#: sieve.cpp:355
+#, kde-format
+msgid ""
+"TLS encryption was requested, but your Sieve server does not advertise TLS "
+"in its capabilities.\n"
+"You can choose to try to initiate TLS negotiations nonetheless, or cancel "
+"the operation."
+msgstr ""
+
+#: sieve.cpp:357
+#, kde-format
+msgid "Server Does Not Advertise TLS"
+msgstr ""
+
+#: sieve.cpp:358
+#, kde-format
+msgid "&Start TLS nonetheless"
+msgstr ""
+
+#: sieve.cpp:359
+#, kde-format
+msgid "&Cancel"
+msgstr "&Anullo"
+
+#: sieve.cpp:361
+#, kde-format
+msgid "TLS encryption requested, but not supported by server."
+msgstr ""
+
+#: sieve.cpp:382
+#, kde-format
+msgid ""
+"Your Sieve server claims to support TLS, but negotiation was unsuccessful."
+msgstr ""
+
+#: sieve.cpp:384
+#, kde-format
+msgid "Connection Failed"
+msgstr "Lidhja Dështoi"
+
+#: sieve.cpp:392
+#, kde-format
+msgid ""
+"The server does not seem to support TLS. Disable TLS if you want to connect "
+"without encryption."
+msgstr ""
+
+#: sieve.cpp:404
+#, kde-format
+msgid "Authenticating user..."
+msgstr ""
+
+#: sieve.cpp:407
+#, kde-format
+msgid "Authentication failed."
+msgstr "Identifikimi dështoi."
+
+#: sieve.cpp:471
+#, kde-format
+msgctxt "special command completed"
+msgid "Done."
+msgstr "E Kryer."
+
+#: sieve.cpp:484
+#, kde-format
+msgid "Activating script..."
+msgstr "Duke aktivizuar skriptin..."
+
+#: sieve.cpp:501
+#, kde-format
+msgid "There was an error activating the script."
+msgstr ""
+
+#: sieve.cpp:521
+#, kde-format
+msgid "There was an error deactivating the script."
+msgstr ""
+
+#: sieve.cpp:553
+#, kde-format
+msgid "Sending data..."
+msgstr ""
+
+#: sieve.cpp:570
+#, kde-format
+msgid "KIO data supply error."
+msgstr "Gabim në dhënien e të dhënave KIO."
+
+#: sieve.cpp:620 sieve.cpp:1161
+#, kde-format
+msgid "Network error."
+msgstr "Gabim në rrjet."
+
+#: sieve.cpp:632
+#, kde-format
+msgid "Verifying upload completion..."
+msgstr ""
+
+#: sieve.cpp:657 sieve.cpp:666
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"This is probably due to errors in the script.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+
+#: sieve.cpp:672 sieve.cpp:677
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"The script may contain errors."
+msgstr ""
+
+#: sieve.cpp:685
+#, kde-format
+msgctxt "data upload complete"
+msgid "Done."
+msgstr "E Kryer."
+
+#: sieve.cpp:717
+#, kde-format
+msgid "Retrieving data..."
+msgstr ""
+
+#: sieve.cpp:767
+#, kde-format
+msgid "Finishing up..."
+msgstr ""
+
+#: sieve.cpp:777
+#, kde-format
+msgid "A protocol error occurred while trying to negotiate script downloading."
+msgstr ""
+
+#: sieve.cpp:782
+#, fuzzy, kde-format
+#| msgctxt "special command completed"
+#| msgid "Done."
+msgctxt "data retrieval complete"
+msgid "Done."
+msgstr "E Kryer."
+
+#: sieve.cpp:789
+#, kde-format
+msgid "Folders are not supported."
+msgstr ""
+
+#: sieve.cpp:798
+#, kde-format
+msgid "Deleting file..."
+msgstr "Duke fshirë skedarin..."
+
+#: sieve.cpp:814
+#, kde-format
+msgid "The server would not delete the file."
+msgstr ""
+
+#: sieve.cpp:818
+#, kde-format
+msgctxt "file removal complete"
+msgid "Done."
+msgstr "U Bë."
+
+#: sieve.cpp:833
+#, kde-format
+msgid "Cannot chmod to anything but 0700 (active) or 0600 (inactive script)."
+msgstr ""
+
+#: sieve.cpp:994
+#, kde-format
+msgid "An error occurred during authentication: %1"
+msgstr ""
+
+#: sieve.cpp:1017
+#, kde-format
+msgid "Sieve Authentication Details"
+msgstr ""
+
+#: sieve.cpp:1019
+#, kde-format
+msgid ""
+"Please enter your authentication details for your sieve account (usually the "
+"same as your email password):"
+msgstr ""
+
+#: sieve.cpp:1092
+#, kde-format
+msgid ""
+"A protocol error occurred during authentication.\n"
+"Choose a different authentication method to %1."
+msgstr ""
+
+#: sieve.cpp:1132
+#, kde-format
+msgid ""
+"Authentication failed.\n"
+"Most likely the password is wrong.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+
+#: sieve.cpp:1215
+#, kde-format
+msgid "A protocol error occurred."
+msgstr "Ndodhi një gabim protokolli."
+
+#~ msgctxt "data retrival complete"
+#~ msgid "Done."
+#~ msgstr "E Kryer."

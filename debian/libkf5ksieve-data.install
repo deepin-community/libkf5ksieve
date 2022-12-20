@@ -1,0 +1,5 @@
+usr/share/knsrcfiles/ksieve_script.knsrc
+usr/share/locale/*/LC_MESSAGES/libksieve.mo
+usr/share/qlogging-categories5/libksieve.categories
+usr/share/qlogging-categories5/libksieve.renamecategories
+usr/share/sieve/

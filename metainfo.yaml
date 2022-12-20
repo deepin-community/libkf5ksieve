@@ -1,0 +1,21 @@
+maintainer: mlaurent
+description: Sieve Script Library 
+tier: 3
+type: functional
+platforms:
+    - name: All
+portingAid: false
+deprecated: false
+release: false
+libraries:
+    - qmake: KSieveUi
+      cmake: KF5::SieveUi
+    - qmake: KManageSieve
+      cmake: KF5::KManageSieve
+    - qmake: KSieve
+      cmake: KF5::Sieve
+cmakename: KF5LibKSieve
+
+public_lib: true
+group: kdepim
+

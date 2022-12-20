@@ -1,0 +1,12 @@
+usr/include/KF5/KManageSieve/
+usr/include/KF5/KSieveUi/
+usr/include/KF5/kmanagesieve/
+usr/include/KF5/ksieveui/
+usr/include/KF5/libksieve_version.h
+usr/lib/*/cmake/KF5LibKSieve/
+usr/lib/*/libKF5KManageSieve.so
+usr/lib/*/libKF5KSieve.so
+usr/lib/*/libKF5KSieveUi.so
+usr/lib/*/qt5/mkspecs/modules/qt_KManageSieve.pri
+usr/lib/*/qt5/mkspecs/modules/qt_KSieve.pri
+usr/lib/*/qt5/mkspecs/modules/qt_KSieveUi.pri

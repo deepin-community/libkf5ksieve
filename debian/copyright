@@ -1,0 +1,187 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libksieve
+Upstream-Contact: kde-devel@kde.org
+Source: https://invent.kde.org/pim/libksieve
+
+Files: *
+Copyright: 2017, Albert Astals Cid <aacid@kde.org>
+           2015, Daniel Vrátil <dvratil@kde.org>
+           2007, David Faure <faure@kde.org>
+           2002-2016, Free Software Foundation, Inc
+           2008, Jarosław Staniek <staniek@kde.org>
+           2004, KDE Team
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2010-2018, Laurent Montel <montel@kde.org>
+           2010, Rosetta Contributors and Canonical Ltd 2010
+           2015, Sandro Knauß <knauss@kolabsys.com>
+           2009-2016, This_file_is_part_of_KDE
+           2010, Torgny Nyblom <nyblom@kde.org>
+License: LGPL-2+
+
+Files: autotests/lexertest.cpp
+       autotests/parsertest.cpp
+       kioslave/src/sieve/sieve.cpp
+       kioslave/src/sieve/sieve.h
+       src/impl/*
+       src/kmanagesieve/sievejob.cpp
+       src/kmanagesieve/sievejob.h
+       src/kmanagesieve/sievejob_p.h
+       src/ksieve/*
+       src/ksieveui/debug/*
+       src/ksieveui/editor/autotests/sieveeditormenubartest.cpp
+       src/ksieveui/editor/autotests/sieveeditormenubartest.h
+       src/ksieveui/editor/autotests/sievetextedittest.cpp
+       src/ksieveui/editor/autotests/sievetextedittest.h
+       src/ksieveui/editor/autotests/sievetexteditwidgettest.cpp
+       src/ksieveui/editor/autotests/sievetexteditwidgettest.h
+       src/ksieveui/editor/sieveeditormenubar.cpp
+       src/ksieveui/editor/sieveeditormenubar.h
+       src/ksieveui/editor/sieveeditorutil.cpp
+       src/ksieveui/editor/sieveeditorutil.h
+       src/ksieveui/editor/sieveinfowidget.cpp
+       src/ksieveui/editor/sieveinfowidget.h
+       src/ksieveui/editor/sievetexteditorspellcheckdecorator.cpp
+       src/ksieveui/editor/sievetexteditorspellcheckdecorator.h
+       src/ksieveui/editor/sievetexteditwidget.cpp
+       src/ksieveui/editor/sievetexteditwidget.h
+       src/ksieveui/editor/tests/editorsieve_gui.cpp
+       src/ksieveui/editor/tests/editorsieve_gui.h
+       src/ksieveui/editor/webengine/sieveeditorwebengineview.cpp
+       src/ksieveui/editor/webengine/sieveeditorwebengineview.h
+       src/ksieveui/managescriptsjob/autotests/checkscriptjobtest.cpp
+       src/ksieveui/managescriptsjob/autotests/checkscriptjobtest.h
+       src/ksieveui/managescriptsjob/autotests/parseuserjobtest.cpp
+       src/ksieveui/managescriptsjob/autotests/parseuserjobtest.h
+       src/ksieveui/managescriptsjob/autotests/renamescriptjobtest.cpp
+       src/ksieveui/managescriptsjob/autotests/renamescriptjobtest.h
+       src/ksieveui/managescriptsjob/checkscriptjob.cpp
+       src/ksieveui/managescriptsjob/checkscriptjob.h
+       src/ksieveui/managescriptsjob/generateglobalscriptjob.cpp
+       src/ksieveui/managescriptsjob/generateglobalscriptjob.h
+       src/ksieveui/managescriptsjob/parseuserscriptjob.cpp
+       src/ksieveui/managescriptsjob/parseuserscriptjob.h
+       src/ksieveui/managescriptsjob/renamescriptjob.cpp
+       src/ksieveui/managescriptsjob/renamescriptjob.h
+       src/ksieveui/managesievescriptsdialog.cpp
+       src/ksieveui/managesievescriptsdialog.h
+       src/ksieveui/tests/*
+       src/ksieveui/vacation/legacy/vacationscriptextractor.cpp
+       src/ksieveui/vacation/legacy/vacationscriptextractor.h
+       src/ksieveui/vacation/legacy/vacationutils.cpp
+       src/ksieveui/vacation/legacy/vacationutils.h
+       src/ksieveui/vacation/vacationcheckjob.cpp
+       src/ksieveui/vacation/vacationcheckjob.h
+       src/ksieveui/vacation/vacationcreatescriptjob.cpp
+       src/ksieveui/vacation/vacationcreatescriptjob.h
+       src/ksieveui/vacation/vacationhelperjob.cpp
+       src/ksieveui/vacation/vacationhelperjob.h
+       src/ksieveui/vacation/vacationmanager.cpp
+       src/ksieveui/vacation/vacationmanager.h
+       src/ksieveui/vacation/vacationpagewidget.cpp
+       src/ksieveui/vacation/vacationpagewidget.h
+       src/ksieveui/widgets/custommanagesievewidget.cpp
+       src/ksieveui/widgets/custommanagesievewidget.h
+       src/ksieveui/widgets/managesievetreeview.cpp
+       src/ksieveui/widgets/managesievetreeview.h
+       src/ksieveui/widgets/managesievewidget.cpp
+       src/ksieveui/widgets/managesievewidget.h
+       src/ksieveui/widgets/sievetreewidgetitem.cpp
+       src/ksieveui/widgets/sievetreewidgetitem.h
+       src/parser/*
+       src/shared/*
+Copyright: 2000-2001, Alex Zepeda <jazepeda@pacbell.net>
+           2001, Hamish Rodda
+           2013-2018, Laurent Montel <montel@kde.org>
+           2002-2003, Marc Mutz <mutz@kde.org>
+           2005, Martijn Klingens <klingens@kde.org>
+           2001, Michael Häckel <Michael@Haeckel.Net>
+License: GPL-2
+
+Files: src/ksieveui/autocreatescripts/autotests/regexpeditorlineedittest.cpp
+       src/ksieveui/autocreatescripts/autotests/regexpeditorlineedittest.h
+       src/ksieveui/autocreatescripts/sieveconditions/widgets/regexpeditorlineedit.cpp
+       src/ksieveui/autocreatescripts/sieveconditions/widgets/regexpeditorlineedit.h
+       src/ksieveui/util/util.cpp
+       src/ksieveui/util/util.h
+       src/ksieveui/util/util_p.h
+       src/ksieveui/widgets/abstractmoveimapfolderwidget.cpp
+       src/ksieveui/widgets/abstractmoveimapfolderwidget.h
+       src/ksieveui/widgets/abstractregexpeditorlineedit.cpp
+       src/ksieveui/widgets/abstractregexpeditorlineedit.h
+       src/ksieveui/widgets/abstractselectemaillineedit.cpp
+       src/ksieveui/widgets/abstractselectemaillineedit.h
+       src/ksieveui/widgets/autotests/includefilelineedittest.cpp
+       src/ksieveui/widgets/autotests/includefilelineedittest.h
+       src/ksieveui/widgets/autotests/lineeditvalidatortest.cpp
+       src/ksieveui/widgets/autotests/lineeditvalidatortest.h
+       src/ksieveui/widgets/includefilelineedit.cpp
+       src/ksieveui/widgets/includefilelineedit.h
+       src/ksieveui/widgets/lineeditvalidator.cpp
+       src/ksieveui/widgets/lineeditvalidator.h
+Copyright: 1951, Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+           1989-1991, Free Software Foundation, Inc
+           2016-2018, Laurent Montel <montel@kde.org>
+           2005, Till Adam
+License: GPL-2+
+
+Files: po/ca/kio_sieve.po
+       po/ca/libksieve.po
+       po/ca@valencia/*
+       po/uk/kio_sieve.po
+       po/uk/libksieve.po
+Copyright: 2003-2018, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+
+Files: debian/*
+Copyright: 2016, Maximiliano Curia <maxy@debian.org>
+License: LGPL-2+
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 of the license.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public
+ License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
+ the complete text of the GNU Lesser General Public License version 3,
+ can be found in `/usr/share/common-licenses/LGPL-3'.

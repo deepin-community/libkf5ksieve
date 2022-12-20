@@ -1,0 +1,278 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Görkem Çetin <gorkem@kde.org>, 2003.
+# H. İbrahim Güngör <ibrahim@pardus.org.tr>, 2011.
+# Ozan Eren BILGEN <oebilgen@uekae.tubitak.gov.tr>, 2005.
+# obsoleteman <tulliana@gmail.com>, 2008-2009,2012.
+# Serhat Demirkol <serhat_demirkol@yahoo.com>, 2009.
+# Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepimlibs-kde4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-05 00:17+0000\n"
+"PO-Revision-Date: 2014-11-12 01:06+0200\n"
+"Last-Translator: Kaan Ozdincer <kaanozdincer@gmail.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.4\n"
+"(http: //www.transifex.com/projects/p/kdepimlibs-k-tr/language/tr/)\n"
+
+#: sieve.cpp:327
+#, kde-format
+msgid "Connecting to %1..."
+msgstr "%1 adresine bağlanılıyor..."
+
+#: sieve.cpp:330
+#, kde-format
+msgid "The connection to the server was lost."
+msgstr "Sunucu ile yapılan bağlantı koptu."
+
+#: sieve.cpp:342
+#, kde-format
+msgid "Server identification failed."
+msgstr "Sunucu kimlik bildirim işlemi başarısız oldu."
+
+#: sieve.cpp:348
+#, kde-format
+msgid "Can not use TLS since the underlying Qt library does not support it."
+msgstr "Temel Qt kitaplığı desteklemediğinden TLS kullanılamaz."
+
+#: sieve.cpp:355
+#, kde-format
+msgid ""
+"TLS encryption was requested, but your Sieve server does not advertise TLS "
+"in its capabilities.\n"
+"You can choose to try to initiate TLS negotiations nonetheless, or cancel "
+"the operation."
+msgstr ""
+"TLS şifrelemesi istendi ama Sieve sunucunuz yeteneklerinde TLS duyurusu "
+"yapmıyor.\n"
+"TLS iletişimini buna rağmen başlatabilirsiniz ya da işlemi iptal "
+"edebilirsiniz."
+
+#: sieve.cpp:357
+#, kde-format
+msgid "Server Does Not Advertise TLS"
+msgstr "Sunucu TLS Duyurusu Yapmıyor"
+
+#: sieve.cpp:358
+#, kde-format
+msgid "&Start TLS nonetheless"
+msgstr "TLS'yi Yine de &Başlat"
+
+#: sieve.cpp:359
+#, kde-format
+msgid "&Cancel"
+msgstr "İ&ptal"
+
+#: sieve.cpp:361
+#, kde-format
+msgid "TLS encryption requested, but not supported by server."
+msgstr "TLS şifrelemesi istendi ama sunucu tarafından desteklenmiyor."
+
+#: sieve.cpp:382
+#, kde-format
+msgid ""
+"Your Sieve server claims to support TLS, but negotiation was unsuccessful."
+msgstr ""
+"Sieve sunucunuz TLS'yi desteklediğini iddia ediyor, ancak müzakere "
+"başarısızdı."
+
+#: sieve.cpp:384
+#, kde-format
+msgid "Connection Failed"
+msgstr "Bağlantı Başarısız"
+
+#: sieve.cpp:392
+#, kde-format
+msgid ""
+"The server does not seem to support TLS. Disable TLS if you want to connect "
+"without encryption."
+msgstr ""
+"Sunucu TLS'yi desteklemiyor görünüyor. Şifreleme olmadan bağlanmak "
+"istiyorsanız TLS'yi pasifleştirin."
+
+#: sieve.cpp:404
+#, kde-format
+msgid "Authenticating user..."
+msgstr "Kimlik denetimi yapılıyor..."
+
+#: sieve.cpp:407
+#, kde-format
+msgid "Authentication failed."
+msgstr "Kimlik denetimi başarısız."
+
+#: sieve.cpp:471
+#, kde-format
+msgctxt "special command completed"
+msgid "Done."
+msgstr "Tamamlandı."
+
+#: sieve.cpp:484
+#, kde-format
+msgid "Activating script..."
+msgstr "Betik çalıştırılıyor..."
+
+#: sieve.cpp:501
+#, kde-format
+msgid "There was an error activating the script."
+msgstr "Betik çalıştırılırken bir hata oluştu."
+
+#: sieve.cpp:521
+#, kde-format
+msgid "There was an error deactivating the script."
+msgstr "Betik durdurulurken bir hata oluştu."
+
+#: sieve.cpp:553
+#, kde-format
+msgid "Sending data..."
+msgstr "Veri gönderiliyor..."
+
+#: sieve.cpp:570
+#, kde-format
+msgid "KIO data supply error."
+msgstr "KIO veri sağlama hatası."
+
+#: sieve.cpp:620 sieve.cpp:1161
+#, kde-format
+msgid "Network error."
+msgstr "Ağ hatası."
+
+#: sieve.cpp:632
+#, kde-format
+msgid "Verifying upload completion..."
+msgstr "Göndermenin tamamlandığı doğrulanıyor..."
+
+#: sieve.cpp:657 sieve.cpp:666
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"This is probably due to errors in the script.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"Betik gönderme işlemini başarıyla tamamlayamadı.\n"
+"Bu muhtemelen betikteki hatalardan kaynaklanmaktadır.\n"
+"Sunucu yanıtı:\n"
+"%1"
+
+#: sieve.cpp:672 sieve.cpp:677
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"The script may contain errors."
+msgstr ""
+"Betik gönderme işlemini başarıyla tamamlayamadı.\n"
+"Betik hatalı olabilir."
+
+#: sieve.cpp:685
+#, kde-format
+msgctxt "data upload complete"
+msgid "Done."
+msgstr "Tamamlandı."
+
+#: sieve.cpp:717
+#, kde-format
+msgid "Retrieving data..."
+msgstr "Veri alınıyor..."
+
+#: sieve.cpp:767
+#, kde-format
+msgid "Finishing up..."
+msgstr "Tamamlanıyor..."
+
+#: sieve.cpp:777
+#, kde-format
+msgid "A protocol error occurred while trying to negotiate script downloading."
+msgstr "Betik indirmesi sırasında iletişim kuralı hatası oluştu."
+
+#: sieve.cpp:782
+#, fuzzy, kde-format
+#| msgctxt "special command completed"
+#| msgid "Done."
+msgctxt "data retrieval complete"
+msgid "Done."
+msgstr "Tamamlandı."
+
+#: sieve.cpp:789
+#, kde-format
+msgid "Folders are not supported."
+msgstr "Dizinler desteklenmiyor."
+
+#: sieve.cpp:798
+#, kde-format
+msgid "Deleting file..."
+msgstr "Dosya siliniyor..."
+
+#: sieve.cpp:814
+#, kde-format
+msgid "The server would not delete the file."
+msgstr "Sunucu dosyayı silmedi."
+
+#: sieve.cpp:818
+#, kde-format
+msgctxt "file removal complete"
+msgid "Done."
+msgstr "Tamamlandı."
+
+#: sieve.cpp:833
+#, kde-format
+msgid "Cannot chmod to anything but 0700 (active) or 0600 (inactive script)."
+msgstr "0700 (etkin) veya 0600 (etkisiz betik) dışında chmod yapılamaz."
+
+#: sieve.cpp:994
+#, kde-format
+msgid "An error occurred during authentication: %1"
+msgstr "Kimlik doğrulama işlemi sırasında bir hata oluştu: %1"
+
+#: sieve.cpp:1017
+#, kde-format
+msgid "Sieve Authentication Details"
+msgstr "Kevgir Kimlik Denetimi Ayrıntıları"
+
+#: sieve.cpp:1019
+#, kde-format
+msgid ""
+"Please enter your authentication details for your sieve account (usually the "
+"same as your email password):"
+msgstr ""
+"Lütfen kevgir hesabınız için kimlik denetimi ayrıntılarını giriniz "
+"(genellikle e-posta parolanızla aynıdır):"
+
+#: sieve.cpp:1092
+#, kde-format
+msgid ""
+"A protocol error occurred during authentication.\n"
+"Choose a different authentication method to %1."
+msgstr ""
+"Kimlik denetimi sırasında iletişim kuralı hatası oluştu.\n"
+"%1 için başka bir kimlik denetim yöntemi seçin."
+
+#: sieve.cpp:1132
+#, kde-format
+msgid ""
+"Authentication failed.\n"
+"Most likely the password is wrong.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"Kimlik denetimi başarısız oldu.\n"
+"Muhtemelen parola hatalı.\n"
+"Sunucunun gönderdiği bilgi:\n"
+"%1"
+
+#: sieve.cpp:1215
+#, kde-format
+msgid "A protocol error occurred."
+msgstr "Bir iletişim kuralı hatası oluştu."
+
+#~ msgctxt "data retrival complete"
+#~ msgid "Done."
+#~ msgstr "Tamamlandı."

@@ -1,0 +1,278 @@
+# Irish translation of kio_sieve
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kio_sieve package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepimlibs/kio_sieve.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-05 00:17+0000\n"
+"PO-Revision-Date: 2007-09-11 07:48-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: sieve.cpp:327
+#, kde-format
+msgid "Connecting to %1..."
+msgstr "Ag ceangal le %1..."
+
+#: sieve.cpp:330
+#, kde-format
+msgid "The connection to the server was lost."
+msgstr "Cailleadh an ceangal leis an bhfreastalaí."
+
+#: sieve.cpp:342
+#, kde-format
+msgid "Server identification failed."
+msgstr "Theip ar aithint an fhreastalaí."
+
+#: sieve.cpp:348
+#, kde-format
+msgid "Can not use TLS since the underlying Qt library does not support it."
+msgstr "Ní féidir TLS a úsáid toisc nach dtacaíonn an leabharlann Qt leis."
+
+#: sieve.cpp:355
+#, kde-format
+msgid ""
+"TLS encryption was requested, but your Sieve server does not advertise TLS "
+"in its capabilities.\n"
+"You can choose to try to initiate TLS negotiations nonetheless, or cancel "
+"the operation."
+msgstr ""
+"Iarradh criptiú TLS, ach ní mhaíonn do fhreastalaí Sieve go dtacaíonn sé le "
+"TLS.\n"
+"Is féidir caibidlí TLS a thosú mar sin féin, nó an oibríocht a chealú."
+
+#: sieve.cpp:357
+#, kde-format
+msgid "Server Does Not Advertise TLS"
+msgstr "Ní Mhaíonn an Freastalaí go dTacaíonn sé le TLS"
+
+#: sieve.cpp:358
+#, kde-format
+msgid "&Start TLS nonetheless"
+msgstr "&Tosaigh TLS mar sin féin"
+
+#: sieve.cpp:359
+#, kde-format
+msgid "&Cancel"
+msgstr "&Cealaigh"
+
+#: sieve.cpp:361
+#, kde-format
+msgid "TLS encryption requested, but not supported by server."
+msgstr "Iarradh criptiú TLS, ach ní thacaíonn an freastalaí leis."
+
+#: sieve.cpp:382
+#, kde-format
+msgid ""
+"Your Sieve server claims to support TLS, but negotiation was unsuccessful."
+msgstr ""
+"Maíonn do fhreastalaí Sieve go dtacaíonn sé le TLS, ach níor éirigh leis na "
+"caibidlí."
+
+#: sieve.cpp:384
+#, kde-format
+msgid "Connection Failed"
+msgstr "Theip ar Cheangal"
+
+#: sieve.cpp:392
+#, kde-format
+msgid ""
+"The server does not seem to support TLS. Disable TLS if you want to connect "
+"without encryption."
+msgstr ""
+"Dealraíonn sé nach dtacaíonn an freastalaí le TLS.  Díchumasaigh TLS más "
+"mian leat ceangal a bhunú gan chriptiú."
+
+#: sieve.cpp:404
+#, kde-format
+msgid "Authenticating user..."
+msgstr "Úsáideoir á fhíordheimhniú..."
+
+#: sieve.cpp:407
+#, kde-format
+msgid "Authentication failed."
+msgstr "Theip ar fhíordheimhniú."
+
+#: sieve.cpp:471
+#, kde-format
+msgctxt "special command completed"
+msgid "Done."
+msgstr "Críochnaithe."
+
+#: sieve.cpp:484
+#, kde-format
+msgid "Activating script..."
+msgstr "Script á gníomhachtú..."
+
+#: sieve.cpp:501
+#, kde-format
+msgid "There was an error activating the script."
+msgstr "Tharla earráid agus an script á gníomhachtú."
+
+#: sieve.cpp:521
+#, kde-format
+msgid "There was an error deactivating the script."
+msgstr "Tharla earráid agus an script á díghníomhachtú."
+
+#: sieve.cpp:553
+#, kde-format
+msgid "Sending data..."
+msgstr "Sonraí á seoladh..."
+
+#: sieve.cpp:570
+#, kde-format
+msgid "KIO data supply error."
+msgstr "Earráid soláthair sonraí KIO."
+
+#: sieve.cpp:620 sieve.cpp:1161
+#, kde-format
+msgid "Network error."
+msgstr "Earráid líonra."
+
+#: sieve.cpp:632
+#, kde-format
+msgid "Verifying upload completion..."
+msgstr "Críoch an uasluchtaithe á dheimhniú..."
+
+#: sieve.cpp:657 sieve.cpp:666
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"This is probably due to errors in the script.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"Níor uasluchtaíodh an script i gceart.\n"
+"Is dócha go raibh earráidí sa script.\n"
+"D'fhreagair an freastalaí:\n"
+"%1"
+
+#: sieve.cpp:672 sieve.cpp:677
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"The script may contain errors."
+msgstr ""
+"Níor uasluchtaíodh an script i gceart.\n"
+"Seans go bhfuil earráidí sa script."
+
+#: sieve.cpp:685
+#, kde-format
+msgctxt "data upload complete"
+msgid "Done."
+msgstr "Críochnaithe."
+
+#: sieve.cpp:717
+#, kde-format
+msgid "Retrieving data..."
+msgstr "Sonraí á bhfáil..."
+
+#: sieve.cpp:767
+#, kde-format
+msgid "Finishing up..."
+msgstr "Á chríochnú..."
+
+#: sieve.cpp:777
+#, kde-format
+msgid "A protocol error occurred while trying to negotiate script downloading."
+msgstr "Tharla earráid phrótacail agus íosluchtú na scripte á shocrú."
+
+#: sieve.cpp:782
+#, fuzzy, kde-format
+#| msgctxt "special command completed"
+#| msgid "Done."
+msgctxt "data retrieval complete"
+msgid "Done."
+msgstr "Críochnaithe."
+
+#: sieve.cpp:789
+#, kde-format
+msgid "Folders are not supported."
+msgstr "Ní thacaítear le fillteáin."
+
+#: sieve.cpp:798
+#, kde-format
+msgid "Deleting file..."
+msgstr "Comhad á scriosadh..."
+
+#: sieve.cpp:814
+#, kde-format
+msgid "The server would not delete the file."
+msgstr "Ní scriosfadh an freastalaí an comhad."
+
+#: sieve.cpp:818
+#, kde-format
+msgctxt "file removal complete"
+msgid "Done."
+msgstr "Críochnaithe."
+
+#: sieve.cpp:833
+#, kde-format
+msgid "Cannot chmod to anything but 0700 (active) or 0600 (inactive script)."
+msgstr ""
+"Ní cheadaítear duit aon cheadanna a úsáid seachas 0700 (gníomhach) nó 0600 "
+"(neamhghníomhach)."
+
+#: sieve.cpp:994
+#, kde-format
+msgid "An error occurred during authentication: %1"
+msgstr "Tharla earráid le linn fíordheimhnithe: %1"
+
+#: sieve.cpp:1017
+#, kde-format
+msgid "Sieve Authentication Details"
+msgstr "Mionsonraí fíordheimhnithe Sieve"
+
+#: sieve.cpp:1019
+#, kde-format
+msgid ""
+"Please enter your authentication details for your sieve account (usually the "
+"same as your email password):"
+msgstr ""
+"Iontráil mionsonraí fíordheimhnithe do chuntais sieve (ionann is d'fhocal "
+"faire ríomhphoist de ghnáth):"
+
+#: sieve.cpp:1092
+#, kde-format
+msgid ""
+"A protocol error occurred during authentication.\n"
+"Choose a different authentication method to %1."
+msgstr ""
+"Tharla earráid phrótacail le linn fíordheimhnithe.\n"
+"Roghnaigh modh difriúil fíordheimhnithe do %1."
+
+#: sieve.cpp:1132
+#, kde-format
+msgid ""
+"Authentication failed.\n"
+"Most likely the password is wrong.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"Theip ar fhíordheimhniú.\n"
+"Is dócha go bhfuil an focal faire mícheart.\n"
+"Freagra ón fhreastalaí:\n"
+"%1"
+
+#: sieve.cpp:1215
+#, kde-format
+msgid "A protocol error occurred."
+msgstr "Tharla earráid phrótacail."
+
+#~ msgctxt "data retrival complete"
+#~ msgid "Done."
+#~ msgstr "Críochnaithe."
+
+#~ msgid "Quota exceeded"
+#~ msgstr "Sáraíodh an cuóta"
+
+#~ msgid "No authentication details supplied."
+#~ msgstr "Níor soláthraíodh mionsonraí fíordheimhnithe."

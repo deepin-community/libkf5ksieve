@@ -1,0 +1,26 @@
+require "imap4flags";
+require "vacation-seconds";
+require "vacation";
+
+#SCRIPTNAME: Script part 0
+if false
+{
+    keep;
+} 
+
+#SCRIPTNAME: Script part 1
+# EDITOR Roundcube (Managesieve)
+# EDITOR_VERSION 8.2
+# rule:[Urlaub]
+vacation :days 1 :subject "XXX" text:
+dsfgsdfgsdfg
+.
+;
+
+
+
+#SCRIPTNAME: Script part 2
+if false
+{
+    keep;
+} 

@@ -1,0 +1,274 @@
+# translation of kio_sieve.po to Euskara
+# translation of kio_sieve.po to basque
+# Copyright (C) 2003, 2005 Free Software Foundation, Inc.
+# Marcos  <marcos@euskalgnu.org>, 2003.
+# Ion Gaztañaga <ion_g_m@hotmail.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_sieve\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-05 00:17+0000\n"
+"PO-Revision-Date: 2005-02-12 06:17+0100\n"
+"Last-Translator: Ion Gaztañaga <ion_g_m@hotmail.com>\n"
+"Language-Team: Euskara <kdeuskaraz@euskalgnu.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: sieve.cpp:327
+#, kde-format
+msgid "Connecting to %1..."
+msgstr "%1-(e)ra konektatzen..."
+
+#: sieve.cpp:330
+#, kde-format
+msgid "The connection to the server was lost."
+msgstr "Zerbitzariaren konexioa galdu egin da."
+
+#: sieve.cpp:342
+#, kde-format
+msgid "Server identification failed."
+msgstr "Zerbitzariaren identifikazioak huts egin du."
+
+#: sieve.cpp:348
+#, kde-format
+msgid "Can not use TLS since the underlying Qt library does not support it."
+msgstr ""
+
+#: sieve.cpp:355
+#, kde-format
+msgid ""
+"TLS encryption was requested, but your Sieve server does not advertise TLS "
+"in its capabilities.\n"
+"You can choose to try to initiate TLS negotiations nonetheless, or cancel "
+"the operation."
+msgstr ""
+
+#: sieve.cpp:357
+#, kde-format
+msgid "Server Does Not Advertise TLS"
+msgstr ""
+
+#: sieve.cpp:358
+#, kde-format
+msgid "&Start TLS nonetheless"
+msgstr ""
+
+#: sieve.cpp:359
+#, kde-format
+msgid "&Cancel"
+msgstr ""
+
+#: sieve.cpp:361
+#, kde-format
+msgid "TLS encryption requested, but not supported by server."
+msgstr ""
+
+#: sieve.cpp:382
+#, kde-format
+msgid ""
+"Your Sieve server claims to support TLS, but negotiation was unsuccessful."
+msgstr ""
+
+#: sieve.cpp:384
+#, fuzzy, kde-format
+#| msgid "Authentication failed."
+msgid "Connection Failed"
+msgstr "Egiaztapenak huts egin du."
+
+#: sieve.cpp:392
+#, kde-format
+msgid ""
+"The server does not seem to support TLS. Disable TLS if you want to connect "
+"without encryption."
+msgstr ""
+
+#: sieve.cpp:404
+#, kde-format
+msgid "Authenticating user..."
+msgstr "Erabiltzailea egiaztatzen..."
+
+#: sieve.cpp:407
+#, kde-format
+msgid "Authentication failed."
+msgstr "Egiaztapenak huts egin du."
+
+#: sieve.cpp:471
+#, fuzzy, kde-format
+#| msgid "Done."
+msgctxt "special command completed"
+msgid "Done."
+msgstr "Eginda."
+
+#: sieve.cpp:484
+#, kde-format
+msgid "Activating script..."
+msgstr "Script-a aktibatzen..."
+
+#: sieve.cpp:501
+#, kde-format
+msgid "There was an error activating the script."
+msgstr "Errore bat gertatu da script-a aktibatzean."
+
+#: sieve.cpp:521
+#, kde-format
+msgid "There was an error deactivating the script."
+msgstr "Errorea bat gertatu da script-a desaktibatzean."
+
+#: sieve.cpp:553
+#, kde-format
+msgid "Sending data..."
+msgstr "Datuak bidaltzen..."
+
+#: sieve.cpp:570
+#, kde-format
+msgid "KIO data supply error."
+msgstr "KIO datuen eskuratze errorea."
+
+#: sieve.cpp:620 sieve.cpp:1161
+#, kde-format
+msgid "Network error."
+msgstr "Sare errorea."
+
+#: sieve.cpp:632
+#, kde-format
+msgid "Verifying upload completion..."
+msgstr "Kargaren osatasuna egiaztatzen..."
+
+#: sieve.cpp:657 sieve.cpp:666
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"This is probably due to errors in the script.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"Script-a ez da ongi kargatu.\n"
+"Hau scrip-ean erroreak daudelako izan ohi da.\n"
+"Zerbitzariak hau erantzun du:\n"
+"%1"
+
+#: sieve.cpp:672 sieve.cpp:677
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"The script may contain errors."
+msgstr ""
+"Script-a ez da ongi kargatu.\n"
+"Script-ak erroreak izan ditzake."
+
+#: sieve.cpp:685
+#, fuzzy, kde-format
+#| msgid "Done."
+msgctxt "data upload complete"
+msgid "Done."
+msgstr "Eginda."
+
+#: sieve.cpp:717
+#, kde-format
+msgid "Retrieving data..."
+msgstr "Datuak eskuratzen..."
+
+#: sieve.cpp:767
+#, kde-format
+msgid "Finishing up..."
+msgstr "Amaitzen..."
+
+#: sieve.cpp:777
+#, kde-format
+msgid "A protocol error occurred while trying to negotiate script downloading."
+msgstr "Protokolo-errore bat gertatu da script-aren deskarga negoziatzean."
+
+#: sieve.cpp:782
+#, fuzzy, kde-format
+#| msgid "Done."
+msgctxt "data retrieval complete"
+msgid "Done."
+msgstr "Eginda."
+
+#: sieve.cpp:789
+#, kde-format
+msgid "Folders are not supported."
+msgstr "Karpetak ez dira onartzen."
+
+#: sieve.cpp:798
+#, kde-format
+msgid "Deleting file..."
+msgstr "Fitxategia ezabatzen..."
+
+#: sieve.cpp:814
+#, kde-format
+msgid "The server would not delete the file."
+msgstr "Zerbitzariak ezin izan du fitxategia ezabatu."
+
+#: sieve.cpp:818
+#, fuzzy, kde-format
+#| msgid "Done."
+msgctxt "file removal complete"
+msgid "Done."
+msgstr "Eginda."
+
+#: sieve.cpp:833
+#, kde-format
+msgid "Cannot chmod to anything but 0700 (active) or 0600 (inactive script)."
+msgstr ""
+"Ezin da chmod exekutatu, 0777 (aktibo) edo 0600 (desaktibo) egoerara ez bada."
+
+#: sieve.cpp:994
+#, kde-format
+msgid "An error occurred during authentication: %1"
+msgstr ""
+
+#: sieve.cpp:1017
+#, kde-format
+msgid "Sieve Authentication Details"
+msgstr "Sieve autentikazioaren xehetasunak"
+
+#: sieve.cpp:1019
+#, kde-format
+msgid ""
+"Please enter your authentication details for your sieve account (usually the "
+"same as your email password):"
+msgstr ""
+"Sartu zure sieve kontuaren autentikazio xehetasunak (normalean zure e-posta "
+"pasahitzaren berdina)"
+
+#: sieve.cpp:1092
+#, kde-format
+msgid ""
+"A protocol error occurred during authentication.\n"
+"Choose a different authentication method to %1."
+msgstr ""
+"Protokolo-errore bat gertatu da autentikazioan.\n"
+"Hautatu %1-(r)en ezberdina den autentikazio metodo bat."
+
+#: sieve.cpp:1132
+#, kde-format
+msgid ""
+"Authentication failed.\n"
+"Most likely the password is wrong.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"Autentikazioak huts egin du.\n"
+"Seguruenik pasahitza ez da zuzena.\n"
+"Zerbitzariak hau erantzun du:\n"
+"%1"
+
+#: sieve.cpp:1215
+#, kde-format
+msgid "A protocol error occurred."
+msgstr "Protokolo-errore bat gertatu da."
+
+#, fuzzy
+#~| msgid "Done."
+#~ msgctxt "data retrival complete"
+#~ msgid "Done."
+#~ msgstr "Eginda."
+
+#~ msgid "Quota exceeded"
+#~ msgstr "Kuota gainditu da."

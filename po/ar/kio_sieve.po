@@ -1,0 +1,274 @@
+# translation of kio_sieve.po to
+# Copyright (C) 2003, 2004, 2006, 2007 Free Software Foundation, Inc.
+# Nuriddin S. Aminagha <nuriddin@haydarlinux.org>, 2003.
+# Hafid BENHADRIA <ghosn@php4arab.info>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_sieve\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-05 00:17+0000\n"
+"PO-Revision-Date: 2018-01-31 11:45+0300\n"
+"Last-Translator: Safa Alfulaij <safa1996alfulaij@gmail.com>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: sieve.cpp:327
+#, kde-format
+msgid "Connecting to %1..."
+msgstr "يتّصل بِ‍ %1..."
+
+#: sieve.cpp:330
+#, kde-format
+msgid "The connection to the server was lost."
+msgstr "فُقد الاتّصال بالخادوم."
+
+#: sieve.cpp:342
+#, kde-format
+msgid "Server identification failed."
+msgstr "فشل التّعرّف على الخادوم."
+
+#: sieve.cpp:348
+#, kde-format
+msgid "Can not use TLS since the underlying Qt library does not support it."
+msgstr "لا يمكن استخدام TLS إذ أنّ مكتبة «كيوت» التّحتيّة لا تدعمه."
+
+#: sieve.cpp:355
+#, kde-format
+msgid ""
+"TLS encryption was requested, but your Sieve server does not advertise TLS "
+"in its capabilities.\n"
+"You can choose to try to initiate TLS negotiations nonetheless, or cancel "
+"the operation."
+msgstr ""
+"طُلبت تعمية TLS ولكنّ خادوم «سِڤ» لم يعلن TLS في إمكانيّاته.\n"
+"يمكنك تجربة تمهيد مفاوضات TLS رغم ذلك، أو إلغاء العمليّة."
+
+#: sieve.cpp:357
+#, kde-format
+msgid "Server Does Not Advertise TLS"
+msgstr "لم يعلن الخادوم TLS"
+
+#: sieve.cpp:358
+#, kde-format
+msgid "&Start TLS nonetheless"
+msgstr "اب&دأ TLS رغم ذلك"
+
+#: sieve.cpp:359
+#, kde-format
+msgid "&Cancel"
+msgstr "أل&غِ"
+
+#: sieve.cpp:361
+#, kde-format
+msgid "TLS encryption requested, but not supported by server."
+msgstr "طُلبت تعمية TLS، ولكنّ الخادوم لا يدعمها."
+
+#: sieve.cpp:382
+#, kde-format
+msgid ""
+"Your Sieve server claims to support TLS, but negotiation was unsuccessful."
+msgstr "يدّعي خادوم «سِڤ» دعم TLS ولكنّ التّفاوض لم ينجح."
+
+#: sieve.cpp:384
+#, kde-format
+msgid "Connection Failed"
+msgstr "فشل الاتّصال"
+
+#: sieve.cpp:392
+#, kde-format
+msgid ""
+"The server does not seem to support TLS. Disable TLS if you want to connect "
+"without encryption."
+msgstr "لا يبدو أنّ الخادوم يدعم SASL. عطّل TLS إن أردت الاتّصال دون تعمية."
+
+#: sieve.cpp:404
+#, kde-format
+msgid "Authenticating user..."
+msgstr "يستوثق المستخدم..."
+
+#: sieve.cpp:407
+#, kde-format
+msgid "Authentication failed."
+msgstr "فشل الاستيثاق."
+
+#: sieve.cpp:471
+#, kde-format
+msgctxt "special command completed"
+msgid "Done."
+msgstr "تمّ."
+
+#: sieve.cpp:484
+#, kde-format
+msgid "Activating script..."
+msgstr "يفعّل السّكربت..."
+
+#: sieve.cpp:501
+#, kde-format
+msgid "There was an error activating the script."
+msgstr "حدث خطأ أثناء تفعيل السّكربت."
+
+#: sieve.cpp:521
+#, kde-format
+msgid "There was an error deactivating the script."
+msgstr "حدث خطأ أثناء إلغاء تفعيل السّكربت."
+
+#: sieve.cpp:553
+#, kde-format
+msgid "Sending data..."
+msgstr "يُرسل البيانات..."
+
+#: sieve.cpp:570
+#, kde-format
+msgid "KIO data supply error."
+msgstr "خطأ «دخل/خرج كدي» في تقديم بيانات."
+
+#: sieve.cpp:620 sieve.cpp:1161
+#, kde-format
+msgid "Network error."
+msgstr "خطأ في الشّبكة."
+
+#: sieve.cpp:632
+#, kde-format
+msgid "Verifying upload completion..."
+msgstr "يتحقّق من اكتمال الرّفع..."
+
+#: sieve.cpp:657 sieve.cpp:666
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"This is probably due to errors in the script.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"لم يُرفع السّكربت بنجاح.\n"
+"غالبًا ما يكون هذا بسبب أخطاء في السّكربت ذاته.\n"
+"ردّ الخادوم بِ‍:\n"
+"%1"
+
+#: sieve.cpp:672 sieve.cpp:677
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"The script may contain errors."
+msgstr ""
+"لم يُرفع السّكربت بنجاح\n"
+"يحتوي السّكربت أخطاءً."
+
+#: sieve.cpp:685
+#, kde-format
+msgctxt "data upload complete"
+msgid "Done."
+msgstr "تمّ."
+
+#: sieve.cpp:717
+#, kde-format
+msgid "Retrieving data..."
+msgstr "يجلب البيانات..."
+
+#: sieve.cpp:767
+#, kde-format
+msgid "Finishing up..."
+msgstr "ينهي بعض الأمور..."
+
+#: sieve.cpp:777
+#, kde-format
+msgid "A protocol error occurred while trying to negotiate script downloading."
+msgstr "حدث خطأ في الميفاق أثناء مفاوضة تنزيل السّكربت."
+
+#: sieve.cpp:782
+#, fuzzy, kde-format
+#| msgctxt "special command completed"
+#| msgid "Done."
+msgctxt "data retrieval complete"
+msgid "Done."
+msgstr "تمّ."
+
+#: sieve.cpp:789
+#, kde-format
+msgid "Folders are not supported."
+msgstr "المجلّدات ليس مدعومة."
+
+#: sieve.cpp:798
+#, kde-format
+msgid "Deleting file..."
+msgstr "يحذف الملفّ..."
+
+#: sieve.cpp:814
+#, kde-format
+msgid "The server would not delete the file."
+msgstr "لا يريد الخادوم حذف الملفّ."
+
+#: sieve.cpp:818
+#, kde-format
+msgctxt "file removal complete"
+msgid "Done."
+msgstr "تمّ."
+
+#: sieve.cpp:833
+#, kde-format
+msgid "Cannot chmod to anything but 0700 (active) or 0600 (inactive script)."
+msgstr "لا يمكن تغيير الوضع إلى أيّ شيء عدا 0700 (نشط) أو 0600 (سكربت غير نشط)."
+
+#: sieve.cpp:994
+#, kde-format
+msgid "An error occurred during authentication: %1"
+msgstr "حدث خطأ أثناء الاستيثاق: %1"
+
+#: sieve.cpp:1017
+#, kde-format
+msgid "Sieve Authentication Details"
+msgstr "تفاصيل استيثاق «سِڤ»"
+
+#: sieve.cpp:1019
+#, kde-format
+msgid ""
+"Please enter your authentication details for your sieve account (usually the "
+"same as your email password):"
+msgstr ""
+"رجاءً أدخِل تفاصيل الاستيثاق لحساب «سِڤ» (غالبًا ما تكون مثل البريد وكلمة السّرّ):"
+
+#: sieve.cpp:1092
+#, kde-format
+msgid ""
+"A protocol error occurred during authentication.\n"
+"Choose a different authentication method to %1."
+msgstr ""
+"حدث خطأ في الميفاق أثناء الاستيثاق.\n"
+"رجاءً اختر طريقة استيثاق مختلفة عن %1."
+
+#: sieve.cpp:1132
+#, kde-format
+msgid ""
+"Authentication failed.\n"
+"Most likely the password is wrong.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"فشل الاستيثاق.\n"
+"غالبًا ما تكون كلمة السّر خاطئة.\n"
+"ردّ الخادوم بِ‍:\n"
+"%1"
+
+#: sieve.cpp:1215
+#, kde-format
+msgid "A protocol error occurred."
+msgstr "حدث خطأ في الميفاق."
+
+#~ msgctxt "data retrival complete"
+#~ msgid "Done."
+#~ msgstr "تمّ."
+
+#~ msgid "Quota exceeded"
+#~ msgstr "تمَّ تجاوز الحصة"
+
+#~ msgid "No authentication details supplied."
+#~ msgstr "لم يتم توفير أيَّة تفاصيل بغرض التَّحقُّق من الهوية."
